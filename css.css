@@ -63,6 +63,9 @@ body {
 }
 /* mobile */
 @media (max-width: 500px) {
+  body {
+    height: 100%;
+  }
   .counter-box {
     margin-top: 45px;
     margin-inline: 50px;
