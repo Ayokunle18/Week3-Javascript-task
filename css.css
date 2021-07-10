@@ -54,6 +54,9 @@ body {
 }
 /* tablet */
 @media (max-width: 768px) {
+  body {
+    height: 100%;
+  }
   .counter-box {
     height: 470px;
   }
@@ -61,7 +64,7 @@ body {
 /* mobile */
 @media (max-width: 500px) {
   .counter-box {
-    margin-block: 30px;
+    margin-top: 45px;
     margin-inline: 50px;
     width: 300px;
   }
